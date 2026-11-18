@@ -1,0 +1,65 @@
+2026-11-17 23:04:13 | INFO | ==============================================================================
+2026-11-17 23:04:13 | INFO | GSP training start
+2026-11-17 23:04:13 | INFO | Seed: 42
+2026-11-17 23:04:13 | INFO | CUDA device: cuda:0 (NVIDIA GeForce RTX 5060 Laptop GPU)
+2026-11-17 23:04:13 | INFO | Online model parameter device: cuda:0
+2026-11-17 23:04:13 | INFO | Target model parameter device: cuda:0
+2026-11-17 23:04:13 | INFO | Training mazes: 1000 | validation mazes: 200
+2026-11-17 23:04:13 | INFO | Episodes: 10 | search budget: 128 | WA* weight: 2.00
+2026-11-17 23:04:13 | INFO | Replay capacity: 20000 | batch: 64 | updates/episode: 2
+2026-11-17 23:04:13 | INFO | Solution bounds enabled: True | dynamic sampling: True
+2026-11-17 23:04:13 | INFO | Config saved to: checkpoints\smoke_10ep_seed42\config.json
+2026-11-17 23:04:13 | INFO | ==============================================================================
+2026-11-17 23:04:13 | INFO | Episode 1/10 | recent success=1.000 | recent avg expansions=49.00 | loss=n/a | buffer=49 | updates=0 | category=satisficed | elapsed=0.0s | CUDA=NVIDIA GeForce RTX 5060 Laptop GPU
+2026-11-17 23:04:13 | INFO | First training batch device audit: {'model_parameters': 'cuda:0', 'target_parameters': 'cuda:0', 'batch_states': 'cuda:0', 'batch_targets': 'cuda:0'}
+2026-11-17 23:04:13 | INFO | Online parameter device check: cuda
+2026-11-17 23:04:25 | INFO | Validation @ episode 5 | success=0.7800 (156/200) | avg expansions(all)=88.17 | avg expansions(solved)=76.94 | best=True | val time=11.0s
+2026-11-17 23:04:39 | INFO | Validation @ episode 10 | success=0.7700 (154/200) | avg expansions(all)=88.15 | avg expansions(solved)=76.25 | best=False | val time=13.0s
+2026-11-17 23:04:39 | INFO | Training complete in 25.0s
+2026-11-17 23:04:39 | INFO | Best validation: {'num_instances': 200, 'num_solved': 156, 'success_rate': 0.78, 'mean_expansions_all': 88.175, 'mean_expansions_solved': 76.9423076923077, 'mean_plan_length_solved': 7.467948717948718}
+2026-11-17 23:04:39 | INFO | Best checkpoint: checkpoints\smoke_10ep_seed42\best_model.pt
+2026-11-17 23:04:39 | INFO | Last checkpoint: checkpoints\smoke_10ep_seed42\last_model.pt
+2026-11-17 23:15:53 | INFO | ==============================================================================
+2026-11-17 23:15:53 | INFO | GSP training start
+2026-11-17 23:15:53 | INFO | Seed: 42
+2026-11-17 23:15:53 | INFO | CUDA device: cuda:0 (NVIDIA GeForce RTX 5060 Laptop GPU)
+2026-11-17 23:15:53 | INFO | Online model parameter device: cuda:0
+2026-11-17 23:15:53 | INFO | Target model parameter device: cuda:0
+2026-11-17 23:15:53 | INFO | Training Batch tensor device: cuda:0
+2026-11-17 23:15:53 | INFO | Training mazes: 1000 | validation mazes: 200
+2026-11-17 23:15:53 | INFO | Episodes: 10 | search budget: 128 | WA* weight: 2.00
+2026-11-17 23:15:53 | INFO | Replay capacity: 20000 | batch: 64 | updates/episode: 2
+2026-11-17 23:15:53 | INFO | Solution bounds enabled: True | dynamic sampling: True
+2026-11-17 23:15:53 | INFO | Config saved to: checkpoints\smoke_10ep_seed42\config.json
+2026-11-17 23:15:53 | INFO | ==============================================================================
+2026-11-17 23:15:53 | INFO | Episode 1/10 | recent success=1.000 | recent avg expansions=49.00 | loss=n/a | buffer=49 | updates=0 | category=satisficed | elapsed=0.0s | CUDA=NVIDIA GeForce RTX 5060 Laptop GPU
+2026-11-17 23:15:53 | INFO | First training batch device audit: {'model_parameters': 'cuda:0', 'target_parameters': 'cuda:0', 'batch_states': 'cuda:0', 'batch_targets': 'cuda:0'}
+2026-11-17 23:15:53 | INFO | Online parameter device check: cuda
+2026-11-17 23:16:05 | INFO | Validation @ episode 5 | success=0.7800 (156/200) | avg expansions(all)=88.17 | avg expansions(solved)=76.94 | best=True | val time=10.0s
+2026-11-17 23:16:16 | INFO | Validation @ episode 10 | success=0.7700 (154/200) | avg expansions(all)=88.15 | avg expansions(solved)=76.25 | best=False | val time=10.0s
+2026-11-17 23:16:16 | INFO | Training complete in 23.0s
+2026-11-17 23:16:16 | INFO | Best validation: {'num_instances': 200, 'num_solved': 156, 'success_rate': 0.78, 'mean_expansions_all': 88.175, 'mean_expansions_solved': 76.9423076923077, 'mean_plan_length_solved': 7.467948717948718}
+2026-11-17 23:16:16 | INFO | Best checkpoint: checkpoints\smoke_10ep_seed42\best_model.pt
+2026-11-17 23:16:16 | INFO | Last checkpoint: checkpoints\smoke_10ep_seed42\last_model.pt
+2026-11-17 23:22:10 | INFO | ==============================================================================
+2026-11-17 23:22:10 | INFO | GSP training start
+2026-11-17 23:22:10 | INFO | Seed: 42
+2026-11-17 23:22:10 | INFO | CUDA device: cuda:0 (NVIDIA GeForce RTX 5060 Laptop GPU)
+2026-11-17 23:22:10 | INFO | Online model parameter device: cuda:0
+2026-11-17 23:22:10 | INFO | Target model parameter device: cuda:0
+2026-11-17 23:22:10 | INFO | Training Batch tensor device: cuda:0
+2026-11-17 23:22:10 | INFO | Training mazes: 1000 | validation mazes: 200
+2026-11-17 23:22:10 | INFO | Episodes: 10 | search budget: 128 | WA* weight: 2.00
+2026-11-17 23:22:10 | INFO | Replay capacity: 20000 | batch: 64 | updates/episode: 2
+2026-11-17 23:22:10 | INFO | Solution bounds enabled: True | dynamic sampling: True
+2026-11-17 23:22:10 | INFO | Config saved to: checkpoints\smoke_10ep_seed42\config.json
+2026-11-17 23:22:10 | INFO | ==============================================================================
+2026-11-17 23:22:11 | INFO | Episode 1/10 | recent success=1.000 | recent avg expansions=49.00 | loss=n/a | buffer=49 | updates=0 | category=satisficed | elapsed=0.0s | CUDA=NVIDIA GeForce RTX 5060 Laptop GPU
+2026-11-17 23:22:11 | INFO | First training batch device audit: {'model_parameters': 'cuda:0', 'target_parameters': 'cuda:0', 'batch_states': 'cuda:0', 'batch_targets': 'cuda:0'}
+2026-11-17 23:22:11 | INFO | Online parameter device check: cuda
+2026-11-17 23:22:27 | INFO | Validation @ episode 5 | success=0.7800 (156/200) | avg expansions(all)=88.17 | avg expansions(solved)=76.94 | best=True | val time=15.0s
+2026-11-17 23:22:41 | INFO | Validation @ episode 10 | success=0.7700 (154/200) | avg expansions(all)=88.15 | avg expansions(solved)=76.25 | best=False | val time=13.0s
+2026-11-17 23:22:41 | INFO | Training complete in 30.0s
+2026-11-17 23:22:41 | INFO | Best validation: {'num_instances': 200, 'num_solved': 156, 'success_rate': 0.78, 'mean_expansions_all': 88.175, 'mean_expansions_solved': 76.9423076923077, 'mean_plan_length_solved': 7.467948717948718}
+2026-11-17 23:22:41 | INFO | Best checkpoint: checkpoints\smoke_10ep_seed42\best_model.pt
+2026-11-17 23:22:41 | INFO | Last checkpoint: checkpoints\smoke_10ep_seed42\last_model.pt

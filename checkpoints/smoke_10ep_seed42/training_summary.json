@@ -1,0 +1,92 @@
+{
+  "status": "completed",
+  "created_at_utc": "2026-11-17T15:22:41.193193+00:00",
+  "seed": 42,
+  "device": "cuda:0",
+  "gpu_name": "NVIDIA GeForce RTX 5060 Laptop GPU",
+  "episodes": 10,
+  "elapsed_seconds": 30.314620200020727,
+  "gradient_updates": 18,
+  "target_updates": 0,
+  "replay_size": 446,
+  "last_loss": 0.0571311991661787,
+  "best_episode": 5,
+  "best_validation": {
+    "num_instances": 200,
+    "num_solved": 156,
+    "success_rate": 0.78,
+    "mean_expansions_all": 88.175,
+    "mean_expansions_solved": 76.9423076923077,
+    "mean_plan_length_solved": 7.467948717948718
+  },
+  "validation_history": [
+    {
+      "episode": 5,
+      "num_instances": 200,
+      "num_solved": 156,
+      "success_rate": 0.78,
+      "mean_expansions_all": 88.175,
+      "mean_expansions_solved": 76.9423076923077,
+      "mean_plan_length_solved": 7.467948717948718,
+      "is_best": true,
+      "validation_time_seconds": 15.165469700004905
+    },
+    {
+      "episode": 10,
+      "num_instances": 200,
+      "num_solved": 154,
+      "success_rate": 0.77,
+      "mean_expansions_all": 88.15,
+      "mean_expansions_solved": 76.24675324675324,
+      "mean_plan_length_solved": 7.454545454545454,
+      "is_best": false,
+      "validation_time_seconds": 13.634291999973357
+    }
+  ],
+  "config_path": "checkpoints\\smoke_10ep_seed42\\config.json",
+  "best_checkpoint": "checkpoints\\smoke_10ep_seed42\\best_model.pt",
+  "last_checkpoint": "checkpoints\\smoke_10ep_seed42\\last_model.pt",
+  "training_log": "logs\\smoke_10ep_seed42\\training_log.csv",
+  "validation_log": "logs\\smoke_10ep_seed42\\validation_log.csv",
+  "update_log": "logs\\smoke_10ep_seed42\\update_log.csv",
+  "training_log_columns": [
+    "episode",
+    "instance_id",
+    "instance_category",
+    "success",
+    "expansions",
+    "plan_length",
+    "buffer_size",
+    "loss",
+    "q_mean",
+    "q_min",
+    "q_max",
+    "episode_time",
+    "gradient_norm",
+    "gradient_updates",
+    "target_updates",
+    "failure_reason"
+  ],
+  "validation_log_columns": [
+    "episode",
+    "success_rate",
+    "mean_expansions_all",
+    "mean_expansions_solved",
+    "mean_plan_length_solved",
+    "num_solved",
+    "num_instances",
+    "is_best",
+    "elapsed_seconds"
+  ],
+  "update_log_columns": [
+    "episode",
+    "update_index",
+    "loss",
+    "q_mean",
+    "q_min",
+    "q_max",
+    "gradient_norm",
+    "target_network_updated",
+    "gradient_updates_total"
+  ]
+}

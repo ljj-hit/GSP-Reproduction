@@ -1,0 +1,14 @@
+2026-11-17 22:56:04 | INFO | Generating datasets with config: data
+2026-11-17 22:56:04 | INFO | Generating train split: 1000 mazes, master seed=20240101
+2026-11-17 22:56:08 | INFO |   saved data\train.npz (1000; difficulty={'easy': 334, 'medium': 333, 'hard': 333}; BFS mean=8.24)
+2026-11-17 22:56:08 | INFO | Generating validation split: 200 mazes, master seed=20240202
+2026-11-17 22:56:08 | INFO |   saved data\validation.npz (200; difficulty={'easy': 67, 'medium': 67, 'hard': 66}; BFS mean=8.20)
+2026-11-17 22:56:08 | INFO | Generating test split: 300 mazes, master seed=20240303
+2026-11-17 22:56:09 | INFO |   saved data\test.npz (300; difficulty={'easy': 100, 'medium': 100, 'hard': 100}; BFS mean=8.29)
+2026-11-17 22:56:09 | INFO | Map-hash independence check passed: no layout is shared across splits.
+2026-11-17 22:56:09 | INFO | Saved dataset manifest: data\dataset_manifest.json
+2026-11-17 22:56:09 | INFO | Generation complete. Splits: ['train', 'validation', 'test']
+2026-11-17 23:41:11 | INFO | Dataset files already exist (data\train.npz, data\validation.npz, data\test.npz). Use --force to regenerate.
+2026-11-17 23:41:11 | INFO | Generation complete. Splits: ['train', 'validation', 'test']
+2026-11-17 23:44:04 | INFO | Dataset files already exist (data\train.npz, data\validation.npz, data\test.npz). Use --force to regenerate.
+2026-11-17 23:44:04 | INFO | Generation complete. Splits: ['train', 'validation', 'test']

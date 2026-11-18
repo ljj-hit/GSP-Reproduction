@@ -1,0 +1,10 @@
+2026-11-18 10:41:08 | INFO | Evaluation complete for 300 instances in 28.0s
+2026-11-18 10:41:08 | INFO | Checkpoint: checkpoints/best_model.pt
+2026-11-18 10:41:08 | INFO | Algorithm                Success     Exp(all)    Exp(solved)        Ratio
+2026-11-18 10:41:08 | INFO | BFS                       1.0000        36.86          36.86       1.0000
+2026-11-18 10:41:08 | INFO | A* + Manhattan            1.0000        18.74          18.74       1.0000
+2026-11-18 10:41:08 | INFO | WA* + Manhattan           1.0000        11.31          11.31       1.0102
+2026-11-18 10:41:08 | INFO | Untrained-Q WA*           0.7633        89.32          77.33       1.0000
+2026-11-18 10:41:08 | INFO | GSP-WA*                   0.9800        41.55          39.78       1.0368
+2026-11-18 10:41:08 | INFO | Saved evaluation CSV: results\evaluation.csv
+2026-11-18 10:41:08 | INFO | Saved summary JSON: results\summary.json

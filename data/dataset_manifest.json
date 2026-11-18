@@ -1,0 +1,239 @@
+{
+  "format_version": 1,
+  "created_at_utc": "2026-11-17T14:56:09.596505+00:00",
+  "generator": "procedural binary mazes (no external data)",
+  "config": {
+    "height": 8,
+    "width": 8,
+    "min_obstacle_ratio": 0.1,
+    "max_obstacle_ratio": 0.25,
+    "num_actions": 4,
+    "step_reward": -1.0,
+    "hidden_dims": [
+      128,
+      128
+    ],
+    "output_dim": 4,
+    "wa_star_weight": 2.0,
+    "search_budget": 128,
+    "dead_end_return": -64.0,
+    "num_train_instances": 1000,
+    "num_validation_instances": 200,
+    "num_test_instances": 300,
+    "train_dataset_seed": 20240101,
+    "validation_dataset_seed": 20240202,
+    "test_dataset_seed": 20240303,
+    "min_bfs_length": 3,
+    "easy_max_bfs_length": 6,
+    "medium_max_bfs_length": 10,
+    "max_generation_attempts_per_target": 200,
+    "max_generation_attempts_per_sample": 100,
+    "training_seed": 42,
+    "training_seeds": [
+      42,
+      43,
+      44
+    ],
+    "episodes": 3000,
+    "replay_capacity": 20000,
+    "batch_size": 64,
+    "updates_per_episode": 2,
+    "learning_rate": 0.001,
+    "gamma": 1.0,
+    "target_update_interval": 200,
+    "gradient_clip_norm": 1.0,
+    "validation_interval": 100,
+    "unsolved_weight": 1.0,
+    "solved_weight": 2.0,
+    "satisficed_weight": 4.0,
+    "use_instance_sampling": true,
+    "use_solution_bounds": true,
+    "device": "cuda:0",
+    "data_dir": "data",
+    "checkpoint_dir": "checkpoints",
+    "log_dir": "logs",
+    "results_dir": "results",
+    "figures_dir": "results/figures",
+    "include_greedy_evaluation": false,
+    "greedy_max_steps": 128
+  },
+  "splits": {
+    "train": {
+      "split": "train",
+      "generator_seed": 20240101,
+      "requested_count": 1000,
+      "actual_count": 1000,
+      "generation_stats": {
+        "attempts": 7491,
+        "accepted": 1000,
+        "unreachable_or_too_short": 1230,
+        "duplicate_layouts": 0,
+        "wrong_difficulty_during_stratification": 5261
+      },
+      "difficulty_quotas": {
+        "easy": 334,
+        "medium": 333,
+        "hard": 333
+      },
+      "difficulty_counts": {
+        "easy": 334,
+        "medium": 333,
+        "hard": 333
+      },
+      "per_target": {
+        "easy": {
+          "requested": 334,
+          "produced": 334,
+          "attempts": 766
+        },
+        "medium": {
+          "requested": 333,
+          "produced": 333,
+          "attempts": 1060
+        },
+        "hard": {
+          "requested": 333,
+          "produced": 333,
+          "attempts": 5665
+        }
+      },
+      "obstacle_ratio": {
+        "min": 0.109375,
+        "max": 0.25,
+        "mean": 0.17846875
+      },
+      "bfs_length": {
+        "min": 3,
+        "max": 20,
+        "mean": 8.24
+      },
+      "path": "data\\train.npz",
+      "per_maze_seed_stored": true
+    },
+    "validation": {
+      "split": "validation",
+      "generator_seed": 20240202,
+      "requested_count": 200,
+      "actual_count": 200,
+      "generation_stats": {
+        "attempts": 1420,
+        "accepted": 200,
+        "unreachable_or_too_short": 242,
+        "duplicate_layouts": 0,
+        "wrong_difficulty_during_stratification": 978
+      },
+      "difficulty_quotas": {
+        "easy": 67,
+        "medium": 67,
+        "hard": 66
+      },
+      "difficulty_counts": {
+        "easy": 67,
+        "medium": 67,
+        "hard": 66
+      },
+      "per_target": {
+        "easy": {
+          "requested": 67,
+          "produced": 67,
+          "attempts": 140
+        },
+        "medium": {
+          "requested": 67,
+          "produced": 67,
+          "attempts": 204
+        },
+        "hard": {
+          "requested": 66,
+          "produced": 66,
+          "attempts": 1076
+        }
+      },
+      "obstacle_ratio": {
+        "min": 0.109375,
+        "max": 0.25,
+        "mean": 0.180234375
+      },
+      "bfs_length": {
+        "min": 3,
+        "max": 18,
+        "mean": 8.195
+      },
+      "path": "data\\validation.npz",
+      "per_maze_seed_stored": true
+    },
+    "test": {
+      "split": "test",
+      "generator_seed": 20240303,
+      "requested_count": 300,
+      "actual_count": 300,
+      "generation_stats": {
+        "attempts": 2149,
+        "accepted": 300,
+        "unreachable_or_too_short": 361,
+        "duplicate_layouts": 0,
+        "wrong_difficulty_during_stratification": 1488
+      },
+      "difficulty_quotas": {
+        "easy": 100,
+        "medium": 100,
+        "hard": 100
+      },
+      "difficulty_counts": {
+        "easy": 100,
+        "medium": 100,
+        "hard": 100
+      },
+      "per_target": {
+        "easy": {
+          "requested": 100,
+          "produced": 100,
+          "attempts": 229
+        },
+        "medium": {
+          "requested": 100,
+          "produced": 100,
+          "attempts": 347
+        },
+        "hard": {
+          "requested": 100,
+          "produced": 100,
+          "attempts": 1573
+        }
+      },
+      "obstacle_ratio": {
+        "min": 0.109375,
+        "max": 0.25,
+        "mean": 0.17630208333333333
+      },
+      "bfs_length": {
+        "min": 3,
+        "max": 20,
+        "mean": 8.293333333333333
+      },
+      "path": "data\\test.npz",
+      "per_maze_seed_stored": true
+    }
+  },
+  "independence": {
+    "checked": true,
+    "pairwise_overlaps": {
+      "train__validation": 0,
+      "train__test": 0,
+      "validation__test": 0
+    },
+    "duplicate_hashes_within_splits": {
+      "train": 0,
+      "validation": 0,
+      "test": 0
+    },
+    "total_duplicate_instances": 0,
+    "unique_layouts": {
+      "train": 1000,
+      "validation": 200,
+      "test": 300
+    }
+  },
+  "state_encoding": "[obstacle_map_flat, agent_one_hot, goal_one_hot] (row-major)",
+  "note": "BFS lengths are metadata for difficulty and evaluation only. They are not used as Q-learning targets."
+}

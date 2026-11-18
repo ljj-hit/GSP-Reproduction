@@ -1,0 +1,9 @@
+2026-11-18 10:42:46 | INFO | Saved results\figures\training_loss.png
+2026-11-18 10:42:46 | INFO | Saved results\figures\validation_success_rate.png
+2026-11-18 10:42:47 | INFO | Saved results\figures\validation_expansions.png
+2026-11-18 10:42:47 | INFO | Saved results\figures\test_success_rate.png
+2026-11-18 10:42:47 | INFO | Saved results\figures\test_expansions.png
+2026-11-18 10:42:48 | INFO | Saved results\figures\test_path_quality.png
+2026-11-18 10:42:48 | INFO | Saved results\figures\test_search_time.png
+2026-11-18 10:42:48 | INFO | Saved results\figures\test_inference_time.png
+2026-11-18 10:42:48 | INFO | Generated 8 figures in results\figures

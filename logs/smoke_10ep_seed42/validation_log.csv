@@ -1,0 +1,3 @@
+episode,success_rate,mean_expansions_all,mean_expansions_solved,mean_plan_length_solved,num_solved,num_instances,is_best,elapsed_seconds
+5,0.78000000,88.17500000,76.94230769,7.46794872,156,200,1,16.363739
+10,0.77000000,88.15000000,76.24675325,7.45454545,154,200,0,30.313436

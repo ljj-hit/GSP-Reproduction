@@ -1,0 +1,21 @@
+2026-11-17 23:05:51 | INFO | Evaluation complete for 300 instances in 34.0s
+2026-11-17 23:05:51 | INFO | Checkpoint: checkpoints/smoke_10ep_seed42/best_model.pt
+2026-11-17 23:05:51 | INFO | Algorithm                Success     Exp(all)    Exp(solved)        Ratio
+2026-11-17 23:05:51 | INFO | BFS                       1.0000        36.86          36.86       1.0000
+2026-11-17 23:05:51 | INFO | A* + Manhattan            1.0000        18.74          18.74       1.0000
+2026-11-17 23:05:51 | INFO | WA* + Manhattan           1.0000        11.31          11.31       1.0102
+2026-11-17 23:05:51 | INFO | Untrained-Q WA*           0.7633        89.32          77.33       1.0000
+2026-11-17 23:05:51 | INFO | GSP-WA*                   0.7533        89.02          76.25       1.0000
+2026-11-17 23:05:51 | INFO | Saved evaluation CSV: results\smoke_10ep_seed42\evaluation.csv
+2026-11-17 23:05:51 | INFO | Saved summary JSON: results\smoke_10ep_seed42\summary.json
+2026-11-17 23:17:39 | INFO | Evaluation complete for 300 instances in 50.0s
+2026-11-17 23:17:39 | INFO | Checkpoint: checkpoints/smoke_10ep_seed42/best_model.pt
+2026-11-17 23:17:39 | INFO | Algorithm                Success     Exp(all)    Exp(solved)        Ratio
+2026-11-17 23:17:39 | INFO | BFS                       1.0000        36.86          36.86       1.0000
+2026-11-17 23:17:39 | INFO | A* + Manhattan            1.0000        18.74          18.74       1.0000
+2026-11-17 23:17:39 | INFO | WA* + Manhattan           1.0000        11.31          11.31       1.0102
+2026-11-17 23:17:39 | INFO | Untrained-Q WA*           0.7633        89.32          77.33       1.0000
+2026-11-17 23:17:39 | INFO | GSP-WA*                   0.7533        89.02          76.25       1.0000
+2026-11-17 23:17:39 | INFO | Greedy-Q                  0.0200         3.41           4.67       1.0000
+2026-11-17 23:17:39 | INFO | Saved evaluation CSV: results\smoke_10ep_seed42\evaluation.csv
+2026-11-17 23:17:39 | INFO | Saved summary JSON: results\smoke_10ep_seed42\summary.json
